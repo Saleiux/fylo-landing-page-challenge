@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  CI HO LAVORATO 9 ORE
+  problemi con il logo nel footer
+  finire media query e poi finito
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./style/styles.css">
+
+    <!-- Bootstap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Social icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Font raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body style="font-family:'Open Sans', sans-serif;;font-size: 16px; ">
+
+<!-- Navbar-->
+    <nav class="navbar bg-body mt-5 sm">
+        <div class="container-fluid ps-5 ms-2 lg">
+            <a navbar-brand href="#">
+          <img class="navbar-brand" src="./images/logo.svg" alt="Logo">
+        </a>
+        <ul class="nav justify-content-end pe-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: black;">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: black;">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: black;">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Main content of the page-->  
+      <main>
+      <div id="biggest-cont" class="row position-relative">
+        <div id="fylo-store" class="col-sm-6 mb-3 mb-sm-0 pe-4 ps-5">
+            <div id="card-body1" class="card-body">
+              <h1 class="card-title pe-1 ps-4">All your files in one secure location, accessible anywhere.</h1>
+              <p id="fylo-store-text" class="card-text pe-4 ps-4 mt-3">Fylo stores your most important files in one secure location. 
+                Access <br> them wherever you need, share and collaborate with friends, 
+                family,  <br> and co-workers.</p>
+
+            <!-- Email input+button--> 
+            <div id="email-inp" class="row g-3 align-items-center">
+                <div id="div-email" class="col-auto ps-0">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+                </div>
+                    <div class="col-auto"><button id="btn1" class="btn btn-primary" type="button">Get Started</button></div>    
+                </div>
+                </div>
+          </div>
+    
+<!-- IMAGE1-->
+
+        <div id="img1" class="col-sm-6 mt-0 ">
+        <div class="col-sm-6">
+              <img class=""img-fluid" src="./images/illustration-1.svg" alt="illustration-1" style="width: 170%;">
+            </div>
+          </div>
+        </div>
+    </main>
+  
+
+  <!--Second half of the page-->
+    <div class="hstack gap-2 d-flex flex-row mb-2 position-relative ms-5" style="background-image: url('images/bg-curve-desktop.svg'); height: 700px; background-repeat: repeat-y">
+      <div id="text-container" class= "p-3 d-flex flex-column mb-3">
+        <h1 id="title2" class="mb-4">Stay productive, wherever you are</h1>
+        <p>Never let location be an issue when accessing your files.  Fylo has you <br> covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and  colleagues for <br> live collaboration. No email attachments required!</p>
+        <div>
+          <div id="link-cont">
+        <a href="#" class="link-success">See how Fylo works</a>
+        <img class="arrow" src="./images/icon-arrow.svg" alt="icon arrow">
+      </div>
+    </div>
+      
+
+   <!--Founder review--> 
+    <div id="review-cont" class="row mt-3">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div id="card-body2" class="card-body ">
+            <img class="mb-2 mt-2" src="./images/icon-quotes.svg" alt="quotes">
+            <p class="card-text w-75">Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.</p>
+              <div class="d-flex flex-row mb-3">
+                <img class="avatar p-2 rounded-circle" src="./images/avatar-testimonial.jpg" alt="Founder Avatar">
+            <p class="p-2" id="ceo"><b>Kyle Burton</b><br>
+              <small style="font-size: 12px;">Founder & CEO, Huddle</small></p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+      <!-- IMAGE2-->
+        <img src="./images/illustration-2.svg" alt="People looking at messages" id="img2" class="rounded float-end me-5" style="width: 40%;">
+      </div>
+     
+  </section>
+   
+  <!-- Get free access-->
+<div id="big-cont" class="d-flex flex-row ps-3" style="background-color: hsl(238, 22%, 44%);">
+  <div id="access" class="mx-5 my-5 w-50" style="background-color: hsl(238, 22%, 44%);">
+    <div class="text-light">
+      <h3 class="title mb-4">Get early access today</h3>
+      <p class="text">It only takes a minute to sign up and our free starter tier is <br> extremely generous. 
+        If you have any questions, our support team <br> would be happy to help you.</p>
+    </div>
+  </div>
+  
+  <form id="started" class="w-50">
+  <div id="mail-cont" class="mb-2">
+    <input  id="email-input" type="email" class="form-control mb-4 mt-3 w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+    <button type="button"  id="btn2" class="btn btn-primary">Get Started For Free</button>
+    
+  </div>
+  </form>
+</div>
+
+  <footer
+   style="color: white;">
+
+    <div id="footer-cont" class="d-flex flex-row mb-3 position-relative ps-3" style="background-color: hsl(243, 87%, 12%);">
+    <div id="small-cont" class="d-flex flex-column mb-3 pt-5 ps-5 mb-5">
+      <img src="./images/logo.svg" alt="Logo" style="width: 60%;">
+
+    <div id="contact-cont" class="d-flex flex-row">
+      <img id="phone-icon" class="me-2" src="./images/icon-phone.svg" alt="phone-icon">
+      <p>Phone: +1-543-123-4567</p>
+    </div>
+    
+    <div class="d-flex flex-row mb-3">
+      <img id="email-icon" class="me-2" src="./images/icon-email.svg" alt="email-icon">
+      <p>example@fylo.com</p>
+    </div>
+    </div>
+
+    <div id="footer-menu" class="pt-5">
+      <div id="about-cont">
+      <p>About Us</p>
+      <p>Jobs</p>
+      <p>Press</p>
+      <p>Blog</p>
+    </div>
+
+    <div id="cont-privacy">
+      <p>Contact Us</p>
+      <p>Terms</p>
+      <p>Privacy</p>
+    </div>
+
+    <div id="icon-cont">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+  </div>
+  </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar,
+h1,
+h3,
+.card-text,
+#ceo {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+
+
+#email-inp {
+    padding-left: 30px;
+}
+
+#div-email {
+    width: 50%;
+}
+
+#btn1 {
+    width: 165px;
+    height: 35px;
+}
+
+#img1 {
+    position: absolute;
+    top: -70px;
+    right: 10px;
+}
+
+.arrow {
+    width: 2%;
+}
+
+#text-container {
+    width: 100%;
+}
+
+#review-cont {
+    width: 75%;
+}
+
+
+.card-body {
+    margin-left: 20px;
+}
+
+
+
+#img2 {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+
+
+
+
+.rounded {
+    width: 42%;
+}
+
+.avatar {
+    width: 15%;
+    height: 15%;
+}
+
+#ceo {
+    line-height: 1.2;
+}
+
+.text-light {
+    margin: 10px;
+}
+
+#access,
+#started {
+    padding-top: 30px;
+}
+
+#started {
+    margin-top: 50px;
+}
+
+#footer-cont {
+    height: 300px;
+}
+
+#contact-cont {
+    margin-top: 10px;
+}
+
+#phone-icon,
+#email-icon {
+    width: 8%;
+    height: 35%;
+    margin-top: 6px;
+}
+
+#about-us {
+    margin-left: 100px;
+}
+
+#about-us,
+#terms {
+    margin-right: 200px;
+}
+
+
+.fa {
+    border: 2px solid white;
+    border-radius: 30%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#footer-menu {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+}
+
+/*Versione mobile*/
+
+@media screen and (max-width: 900px) {
+
+    .navbar-brand {
+        width: 100px ;
+    }
+
+    #biggest-cont {
+        width: 100%;
+    }
+     
+    #fylo-store{
+        margin-top: 300px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    #fylo-store-text {
+        width: 85%;
+        text-align: center;
+        margin-left: 35px;
+
+    }
+
+    .card-title {
+        text-align: center;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    #card-body1 {
+        margin-left: -50px;
+    }
+    
+    #img1 {
+        max-width: 170px;
+        min-width: 50%;
+        position: absolute;
+        top: -50px;
+        left: 60px;
+    }
+
+    br {
+        display: none;
+    }
+
+    #btn1, 
+    #exampleInputEmail1 {
+        width: 350px;
+        height: 40px;
+        margin-left: 50px;
+    }
+
+    #img2 {
+        max-width: 100px;
+        min-width: 70%;
+        position: absolute;
+        top: -120px;
+        left: 60px;
+    }
+
+    #text-container {
+        margin-top: 350px;
+        position: relative;
+        width: 92%;
+    }
+    
+    #title2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #link-cont {
+        text-align: center;
+    }
+
+    .arrow {
+        width: 5%;
+    }
+
+    #review-cont {
+        width: 115%;
+        margin-right: 500px;
+        margin-bottom: 100px;
+    }
+
+    #card-body2 {
+        width: 120%;
+    }
+
+    #ceo {
+        width: 32%;
+    }
+
+    #big-cont {
+        margin-top: 100px;
+        padding-top: 30px;
+    }
+
+    .text-light {
+        position: absolute;
+        margin-top: -50px;
+        width: 65%;
+        text-align: center;
+    }
+
+
+    #started {
+        width: 100%;
+        height: 200px;
+        margin-top: 180px;
+        margin-bottom: 40px;
+        margin-right: 800px;
+    }
+
+    #mail-cont {
+        width: 400px;
+    }
+
+
+    #btn2 {
+        width: 75%;
+    }
+
+
+    #footer-cont {
+        height: 700px;
+        color: white; 
+    }
+
+    #contact-cont {
+        margin-top: 50px;
+    }
+
+    #phone-icon,
+    #email-icon {
+        width: 4%;
+    }
+
+    #about-cont {
+        margin-top: 25px;
+    }
+
+    #small-cont {
+        width: 100%;
+    }
+
+    #footer-menu {
+        margin-top: 160px;
+        width: 100%;
+        padding: 85px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cont-privacy {
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+
+    #icon-cont {
+        text-align: center;
+    }
+
+    i + i {
+        margin-left: 5px;
+    }
+
+
+   
+
+    
+
+
+
+
+
+
+
+}
+
