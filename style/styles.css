@@ -198,6 +198,7 @@ main {
         left: 60px;
     }
 
+
     #text-container {
         margin-top: 350px;
         position: relative;
@@ -305,17 +306,13 @@ main {
     i + i {
         margin-left: 5px;
     }
-
-
-   
-
-    
-
-
-
-
-
-
-
 }
 
+@media screen and (max-width: 500) {
+
+    .hstack {
+        background-image: url('images/bg-curve-mobile.svg');
+
+    
+    }
+}
